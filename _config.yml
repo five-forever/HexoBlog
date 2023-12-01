@@ -45,12 +45,25 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: fasle
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
+prism_plugin:
+  mode: 'preprocess' # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false # default false
+  custom_css: 
+search:
+  path: search.xml
+  field: post
+wordCount:
+  enable: true # 将这个值设置为 true 即可.
+  postWordCount: true
+  min2read: true
+  totalCount: true
 prismjs:
   enable: false
   preprocess: true
