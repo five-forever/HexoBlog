@@ -124,9 +124,9 @@ logo: /medias/logo.png
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
   enable: true
-  name: Github
-  icon: fab fa-github-alt
-  url: https://github.com/five-forever
+  name: 打把台球
+  icon: fab fa-itch-io
+  url: https://five-forever.github.io/PoolGame-Web/
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
