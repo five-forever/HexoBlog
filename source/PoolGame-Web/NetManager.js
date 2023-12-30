@@ -2,7 +2,7 @@
  * @Author: Talos--1660327787@qq.com
  * @Date: 2023-12-30 19:00:37
  * @LastEditors: Talos--1660327787@qq.com
- * @LastEditTime: 2023-12-30 19:12:56
+ * @LastEditTime: 2023-12-30 19:42:34
  * @FilePath: /PoolGame-Web/NetManager.js
  * @Description: 
  * 
@@ -21,11 +21,11 @@ class NetManager {
             console.log('从服务器收到消息：', evt.data)
         })
 
-        ws.addEventListener('open', (evt)=>{
+        ws.addEventListener('close', (evt)=>{
             console.log('socket已关闭')
         })
 
-        ws.addEventListener('open', (evt)=>{
+        ws.addEventListener('error', (evt)=>{
             console.log('socket连接错误：', evt)
         })
 
