@@ -2,8 +2,8 @@
  * @Author: Talos--1660327787@qq.com
  * @Date: 2023-12-03 20:52:28
  * @LastEditors: Talos--1660327787@qq.com
- * @LastEditTime: 2023-12-30 19:55:23
- * @FilePath: /PoolGame-Web/Game.js
+ * @LastEditTime: 2024-02-11 03:34:12
+ * @FilePath: /undefined/Users/guotao/Projects/HexoBlog/source/PoolGame-Web/Game.js
  * @Description: 整个游戏世界的创建，光照、相机、物理参数
  * 
  * Copyright (c) 2023 by five-forever, All Rights Reserved. 
@@ -35,7 +35,7 @@ class Game{
 
         if(this.helper) this.helper.wireframe = true 
 
-        this.netManager = new NetManager()
+        this.netManager = new NetManager(this)
     }
 
     initThree(){
